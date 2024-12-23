@@ -411,8 +411,8 @@ function Menu(props) {
         <Heading fontSize="md">Contact Us</Heading>
         <Stack mt={4}>
           <Link href="mailto:tawkeer00@gmail.com">Tawkeer00@gmail.com</Link>
-          <Link href="mailto:tawkeer00@gmail.com">Kitabmomin25@gmail.com</Link>
-          <Link href="tel:+96006579990">(+91) 6006579990</Link>
+       
+          <Link href="tel:+96005649665">(+91) 6005649665</Link>
         </Stack>
       </Box>
       <Box>

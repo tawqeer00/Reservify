@@ -114,22 +114,7 @@ const userRegister = asyncHandler(async (req, res) => {
       text: `New user ${name_first} ${name_last} (${email}) registered from department ${address}. Balance: ${0}`,
       type: "registration",
     })
-    // inviteExists.deleteOne()
-
-    // client.send({
-    //   from: sender,
-    //   to: [{ email: newUser.email }],
-    //   subject: `Reservify registration`,
-    //   text: `
-    //           Hi ${newUser.name_first}, 
-              
-    //           Welcome to Reservify!
-
-    //           Please top-up your account at the office to start making bookings.
-
-    //           This is an auto-generated email.
-    //           `,
-    // })
+  
 
     let info = {
       from: process.env.EMAIL,
